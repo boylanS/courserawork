@@ -1,0 +1,100 @@
+
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  padding: 0px;
+} 
+
+/** HEADER **/
+
+
+#header-nav {
+  background-color: #A8A8A8;
+  border-radius: 0;
+  border: 
+  padding: 0px;
+}
+
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+	font-weight: bold;
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	color: black;
+	text-shadow: 1px 1px 1px #222;
+	line-height: .75;
+
+}
+
+@media (min-width:768){
+	.collapse{
+		display: none !important;
+	}
+}
+
+
+
+
+#nav-list li{
+	margin-top: 0px;
+	background-color: #DCDCDC;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#nav-list li{
+	border: 1px solid black;
+	border-top: none;
+} 
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.page-content {
+	background-color: grey;
+	padding-bottom: 10px;
+	color: black;
+	width: 100%;
+	margin: 5;
+
+}
+
+.container.fluid{
+	margin: 5px;
+}
+
+h3, h2{
+	font-weight: bold;
+}
+
+p{
+	font-size: 1.3em;
+}
+
+.col-xs-12{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+/*
+.navbar-header button.navbar-toggle {
+  clear: both;
+  
+}
+*/
+
+
+/*
+button.navbar-toggle:hover, button.navbar-toggle:active{
+	color: blue;
+}*/
+
